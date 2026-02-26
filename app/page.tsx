@@ -768,13 +768,7 @@ export default function App() {
         </div>
       </main>
 
-      {/* Footer */}
-      <footer className="mt-auto p-4 border-t border-slate-800 bg-slate-950/50 backdrop-blur-md">
-    <div className="flex justify-between items-center text-xs text-slate-500">
-      <p>Anga Watch v1.0 | B2G Flood Defense System</p>
-      <p>BeOrchid Africa Hackathon 2026</p>
-    </div>
-  </footer>
+      
     </div>
   );
 }
