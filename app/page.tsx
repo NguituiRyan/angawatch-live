@@ -769,21 +769,12 @@ export default function App() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-industrial-700/50 bg-industrial-800/60 px-6 py-3">
-        <div className="flex items-center justify-between text-xs text-industrial-500">
-          <div className="flex items-center gap-4">
-            <span>Anga Watch v1.0</span>
-            <span>|</span>
-            <span>B2G Flood Defense System</span>
-            <span>|</span>
-            <span>BeOrchid Africa Hackathon 2025</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <div className="w-2 h-2 rounded-full bg-green-500" />
-            <span>API Connection: Active</span>
-          </div>
-        </div>
-      </footer>
+      <footer className="mt-auto p-4 border-t border-slate-800 bg-slate-950/50 backdrop-blur-md">
+    <div className="flex justify-between items-center text-xs text-slate-500">
+      <p>Anga Watch v1.0 | B2G Flood Defense System</p>
+      <p>BeOrchid Africa Hackathon 2026</p>
+    </div>
+  </footer>
     </div>
   );
 }
